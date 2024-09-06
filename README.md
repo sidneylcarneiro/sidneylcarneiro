@@ -1,13 +1,59 @@
-- 👋 Hi, I’m @sidneylcarneiro
-- 👀 I’m passionate about Python Development
-- 🌱 I’m currently advancing my skills in Python
-- 💼 I’m interested in collaborating on projects related to automation, AI, and other innovative technologies. If you have any related opportunities, I’d love to hear about them.
-- 📫 You can reach me via email at sidneylcarneiro@gmail.com
-- 😄 Pronouns: he/him
-- ⚡ Fun fact: My passion for technology began in my teenage years. I started my career in technical support at 16, specializing in assembly and maintenance. Since then, I’ve expanded my expertise to include network assistance and helpdesk/back office support. I’m currently pursuing a degree in Information Technology Management, and I’m in my second semester at Estácio University.
+## Olá, meu nome é Sidney!
 
+### ⚙️ GitHub Analytics
 
-<!---
-sidneylcarneiro/sidneylcarneiro is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<table>
+  <tr>
+    <td>
+      <img
+        align="left"
+        src="https://github-readme-stats.vercel.app/api?username=sidneylcarneiro&theme=dark&hide_border=false&include_all_commits=true"
+        alt="Github Stats"
+      />
+    </td>
+    <td>
+      <img
+        align="left"
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=sidneylcarneiro&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact"
+        alt="Github Stats"
+      />
+    </td>
+    <td>
+      <br />
+      <img
+        align="left"
+        src="https://github-readme-streak-stats.herokuapp.com/?user=sidneylcarneiro&theme=dark&hide_border=false"
+        alt="Github Stats"
+      />
+    </td>
+  </tr>
+</table>
+
+--- 
+
+### 🏆 GitHub Profile Trophy
+
+<p align="center">
+  <a
+    href="https://github.com/ryo-ma/github-profile-trophy"
+    title="repositório de troféus"
+  >
+    <img
+      width="800"
+      src="https://github-profile-trophy.vercel.app/?username=sidneylcarneiro&column=8&theme=darkhub&no-frame=true&no-bg=true"
+    />
+  </a>
+</p>
+
+---
+
+<div align="center">
+  <h3><b>📍 Profile Visitor Count</b></h3>
+</div>
+
+<p align="center">
+  <img
+    src="https://profile-counter.glitch.me/sidneylcarneiro/count.svg"
+    alt="Número de visitantes no perfil"
+  />
+</p>
