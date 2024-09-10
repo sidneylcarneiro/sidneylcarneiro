@@ -29,7 +29,28 @@
   </tr>
 </table>
 
---- 
+---
+
+### 🚀 Principais Projetos
+
+Aqui estão alguns dos meus projetos mais destacados:
+
+- **[RGB to HEX Converter](https://github.com/sidneylcarneiro/rgb_to_hex)**
+  - Um aplicativo gráfico para converter valores RGB em códigos de cor hexadecimal. Permite ajuste fácil de cores e cópia do código para a área de transferência.
+
+- **[Salvar Vídeos do YouTube](https://github.com/sidneylcarneiro/salvar_videos_youtube)**
+  - Um aplicativo simples para download de vídeos do YouTube utilizando a biblioteca `yt_dlp` e uma interface gráfica amigável desenvolvida com `customtkinter`.
+
+- **[Caderno](https://github.com/sidneylcarneiro/caderno)**
+  - Um editor de texto simples feito em Python com `Tkinter`. Permite criar, abrir, editar e salvar arquivos de texto, com funcionalidades extras como alinhamento de texto e controle de quebra de linha.
+
+- **[Árvore Binária](https://github.com/sidneylcarneiro/arvore_binaria)**
+  - Implementação de uma árvore binária em Python, com funcionalidades de inserção, busca, verificação de nós vazios e deleção.
+
+- **[Task Tracker](https://github.com/sidneylcarneiro/task_tracker)**
+  - Um rastreador de tarefas baseado em linha de comando (CLI), permitindo criar, alterar, deletar, listar e filtrar tarefas.
+
+---
 
 ### 🏆 GitHub Profile Trophy
 
