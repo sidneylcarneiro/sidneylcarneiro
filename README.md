@@ -1,4 +1,3 @@
-```markdown
 # Olá, eu sou Sidney Carneiro! 👋
 
 Sou um desenvolvedor focado em resolver problemas reais utilizando tecnologias modernas como **Python, Java e Inteligência Artificial**. Meu foco atual é criar soluções Micro SaaS e automações inteligentes.
