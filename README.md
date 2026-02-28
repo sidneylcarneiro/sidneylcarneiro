@@ -1,5 +1,4 @@
-# Sidney Carneiro
-### Backend Developer | Python & FastAPI
+# Backend Developer | Python & FastAPI
 
 Profissional de TI com sólida experiência em suporte e infraestrutura (Debian/Linux), atualmente em transição de carreira para o desenvolvimento Backend. Focado em criar soluções robustas, escaláveis e bem documentadas.
 
