@@ -27,6 +27,10 @@ Como parte da minha evolução técnica, estou documentando a resolução de 10 
     * **Solução:** Implementação de **Eager Loading** com `joinedload` do SQLAlchemy para reduzir 51 consultas para apenas 1.
     * **Garantia:** Monitoramento de logs do Engine SQL para validação de performance.
 
+3.  **[Semântica HTTP e Status Codes](https://github.com/sidneylcarneiro/exercicio-http-semantics)**
+    * **Problema:** API retornando `200 OK` para todas as operações, mesmo quando itens não eram encontrados.
+    * **Solução:** Implementação de `HTTPException` e códigos de status adequados (`201` para criação, `204` para exclusão e `404` para recursos inexistentes).
+    * **Garantia:** Validação visual via Swagger UI e monitoramento de logs de rede.
 ---
 
 ## 📫 Perfil
