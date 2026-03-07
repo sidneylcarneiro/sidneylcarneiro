@@ -31,6 +31,11 @@ Como parte da minha evolução técnica, estou documentando a resolução de 10 
     * **Problema:** API retornando `200 OK` para todas as operações, mesmo quando itens não eram encontrados.
     * **Solução:** Implementação de `HTTPException` e códigos de status adequados (`201` para criação, `204` para exclusão e `404` para recursos inexistentes).
     * **Garantia:** Validação visual via Swagger UI e monitoramento de logs de rede.
+  
+4.  **[Gerenciamento de Variáveis de Ambiente e Segurança](https://github.com/sidneylcarneiro/exercicio-env-variables)**
+    * **Problema:** Credenciais sensíveis (URL de banco, tokens de API) fixadas diretamente no código-fonte (hardcoded), expondo a infraestrutura a vazamentos.
+    * **Solução:** Implementação do `pydantic-settings` para carregamento de configurações via arquivo `.env`, isolando os segredos da lógica da aplicação.
+    * **Garantia:** Configuração estrita do `.gitignore` validada via CLI para impedir o versionamento de dados confidenciais.
 ---
 
 ## 📫 Perfil
