@@ -1,6 +1,6 @@
 # Backend Developer | Python & FastAPI
 
-Profissional de TI com sólida experiência em suporte e infraestrutura (Debian/Linux), atualmente em transição de carreira para o desenvolvimento Backend. Focado em criar soluções robustas, escaláveis e bem documentadas.
+Profissional de TI com sólida experiência em suporte e infraestrutura (Debian/Linux), atualmente focando meu desenvolvimento profissional na construção de APIs robustas e escaláveis no backend web com FastAPI.
 
 ---
 
@@ -36,6 +36,22 @@ Como parte da minha evolução técnica, estou documentando a resolução de 10 
     * **Problema:** Credenciais sensíveis (URL de banco, tokens de API) fixadas diretamente no código-fonte (hardcoded), expondo a infraestrutura a vazamentos.
     * **Solução:** Implementação do `pydantic-settings` para carregamento de configurações via arquivo `.env`, isolando os segredos da lógica da aplicação.
     * **Garantia:** Configuração estrita do `.gitignore` validada via CLI para impedir o versionamento de dados confidenciais.
+
+5.  **[Organização e Arquitetura com APIRouter](https://github.com/sidneylcarneiro/exercicio-apirouter)**
+    * **Problema:** Arquivos `main.py` gigantes (monolíticos) causando dificuldade de manutenção e documentação confusa.
+    * **Solução:** Refatoração da arquitetura dividindo rotas por domínios de negócio utilizando o `APIRouter`.
+    * **Garantia:** Separação de responsabilidades (SoC) e organização visual automática via tags no Swagger UI.
+
+6.  **[Injeção de Dependências e Conexões Seguras](https://github.com/sidneylcarneiro/exercicio-injecao-dependencia)**
+    * **Problema:** Conexões de banco de dados presas (memory leaks) devido a exceções e erros não tratados nas rotas.
+    * **Solução:** Uso do sistema de `Depends` do FastAPI e funções geradoras (`yield` e `finally`) para garantir o fechamento de conexões de forma automática.
+    * **Garantia:** Logs de terminal comprovando o encerramento do banco de dados mesmo após requisições com código 404.
+
+7.  **[Performance com Tarefas em Segundo Plano](https://github.com/sidneylcarneiro/exercicio-background-tasks)**
+    * **Problema:** Gargalos de processamento síncrono (ex: envio de e-mails), travando a resposta da API e causando telas de carregamento infinito para o usuário.
+    * **Solução:** Implementação do `BackgroundTasks` para delegar tarefas pesadas para os bastidores.
+    * **Garantia:** Redução do tempo de resposta da API de 5 segundos para milissegundos, comprovado via logs de execução.
+
 ---
 
 ## 📫 Perfil
